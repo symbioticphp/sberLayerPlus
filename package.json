@@ -1,6 +1,6 @@
 {
   "name": "@symbioticphp/sber_layer_plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Расширенная версия '@sberdevices/layer-sdk' для удобного управления виджетом",
   "dependencies": {
     "@sberdevices/layer-sdk": "^1.0"
