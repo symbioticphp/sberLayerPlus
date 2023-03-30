@@ -1,0 +1,1 @@
+import '@sberdevices/layer-sdk';

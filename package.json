@@ -1,0 +1,32 @@
+{
+  "name": "@symbioticphp/sber_layer_plus",
+  "version": "1.0.1",
+  "description": "Расширенная версия '@sberdevices/layer-sdk' для удобного управления виджетом",
+  "dependencies": {
+    "@sberdevices/layer-sdk": "^1.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symbioticphp/sberLayerPlus.git"
+  },
+  "author": "https://github.com/symbioticphp/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/symbioticphp/sberLayerPlus/issues"
+  },
+  "homepage": "https://github.com/symbioticphp/sberLayerPlus"
+}
