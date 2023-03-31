@@ -106,11 +106,13 @@ window['mySberLoader'].initImage({
 
 ```javascript
 // Перед отрисовкой контейнера виджета
-window['mySberLoader'].listen('initContainer', function(imageElement, containerElement) {
+// imageElement, containerElement - payload obj keys
+window['mySberLoader'].listen('initContainer', function(payload) {
     
 });
 // Выполняется перед передачей на запуск (window.LayerSDK.render)
-window['mySberLoader'].listen('initImage', function(imageElement, containerElement, settings) {
+// {imageElement, containerElement, settings} - payload object keys
+window['mySberLoader'].listen('initImage', function(payload) {
 
 });
 ```
